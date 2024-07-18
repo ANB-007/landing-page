@@ -63,6 +63,22 @@ ul{
     gap: 90px; 
 }
 
+img {
+    background-color: gray;
+    width: 400px; 
+    flex: 1; 
+}
+
+button {
+    width: 100px; 
+    background-color: #3882F6; 
+    color: #F9FAF8; 
+    border-radius: 8px;
+    border-width: 0;
+    padding: 6px 16px; 
+}
+
+
 
 
 

@@ -3,18 +3,30 @@
     background-color: #1F2937;
 }
 
+.top {
+    padding: 0px 64px; 
+}
+
 ul{ 
     color: #E5E7EB; 
     font-size: 18px; 
     list-style-type: none;
     margin: 0px; 
     padding: 0px; 
+    display: flex; 
+    gap: 16px;
 }
 
 .title {
     color: #F9FaF8; 
     font-size: 24px;
     font-weight: 700;
+}
+
+.header {
+    display: flex; 
+    justify-content: space-around;
+    align-items: start; 
 }
 
 .quotes {

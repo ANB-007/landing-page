@@ -4,7 +4,10 @@
 }
 
 .top {
-    padding: 16px 64px; 
+    padding: 16px 150px; 
+    display: flex; 
+    justify-content: space-around;
+    gap: 8px; 
 }
 
 ul{ 
@@ -44,8 +47,21 @@ ul{
     width: 400px; 
     display: flex; 
     flex-direction: column;
+    gap: 90px; 
 }
 
+.box {
+    display: flex; 
+    flex-direction: column;
+    gap: 6px; 
+}
+
+.right {
+    width: 400px; 
+    display: flex; 
+    flex-direction: column;
+    gap: 90px; 
+}
 
 
 

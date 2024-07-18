@@ -9,7 +9,7 @@ body {
 }
 
 .top {
-    padding: 16px 150px; 
+    padding: 16px 150px 64px; 
     display: flex; 
     justify-content: space-around;
     gap: 8px; 
@@ -86,8 +86,9 @@ button {
 .images {
     padding: 25px 150px; 
     display: flex; 
-    justify-content: space-around;
-    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
     gap: 8px; 
 }
 
@@ -97,24 +98,19 @@ button {
     font-weight: 1000;
 }
 
+.cards {
+    display: flex; 
+    gap: 32px; 
+    justify-content: space-between;
+    padding-top: 16px; 
+  }
 
+  .card {
+    border: 2px solid #3882F6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+    min-height: 100px; 
+    min-width: 100px;
+    padding: 16px;  
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.quotes {
-    background-color: #E5E7EB;
-    color: #1F2937; 
-    font-size: 36px;
-}

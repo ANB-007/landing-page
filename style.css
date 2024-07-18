@@ -1,3 +1,8 @@
+body {
+    display: flex; 
+    flex-direction: column;
+}
+
 .top,
 .footer {
     background-color: #1F2937;
@@ -76,6 +81,20 @@ button {
     border-radius: 8px;
     border-width: 0;
     padding: 6px 16px; 
+}
+
+.images {
+    padding: 25px 150px; 
+    display: flex; 
+    justify-content: space-around;
+    align-items: start;
+    gap: 8px; 
+}
+
+.information {
+    font-size: 36px;
+    color: #1F2937; 
+    font-weight: 1000;
 }
 
 

@@ -144,19 +144,35 @@ button {
     font-weight: 700;
     display: flex; 
     justify-content: end;
-    font-size: 24px; 
+    font-size: 24px;
   }
 
   .blue {
     background-color: #3882F6; 
-    border-radius: 8px;
-    padding: 16px;
+    border-radius: 16px;
+    padding: 32px;
     border-color: white; 
+    display: flex; 
+    align-items: center;
   }
 
   .ad {
     padding: 64px 150px; 
     display: flex; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .mod {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer {
+    height: 100px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white; 
   }

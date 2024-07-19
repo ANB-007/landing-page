@@ -146,3 +146,10 @@ button {
     justify-content: end;
   }
 
+  .blue {
+    background-color: #3882F6; 
+    border-radius: 8px;
+    padding: 16px;
+    border-color: white; 
+  }
+

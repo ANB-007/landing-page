@@ -122,6 +122,27 @@ button {
 
   .quotes {
     background-color: #E5E7EB;
-    padding: 16px 150px 64px; 
+    padding: 64px 150px; 
     display: flex; 
+    justify-content: center;
+    align-items: center;
   }
+
+  .container {
+    width: 696px; 
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .quote {
+    font-size: 36px;
+    color: #1F2937;
+  }
+
+  .source {
+    font-weight: 700;
+    display: flex; 
+    justify-content: end;
+  }
+

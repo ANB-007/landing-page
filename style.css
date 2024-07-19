@@ -84,12 +84,12 @@ button {
 }
 
 .images {
-    padding: 25px 150px; 
+    padding: 16px 150px 64px; 
     display: flex; 
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    gap: 8px; 
+    gap: 32px; 
 }
 
 .information {
@@ -100,17 +100,28 @@ button {
 
 .cards {
     display: flex; 
-    gap: 32px; 
+    gap: 40px; 
     justify-content: space-between;
     padding-top: 16px; 
   }
 
-  .card {
+  .card-box {
     border: 2px solid #3882F6;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 8px;
-    min-height: 100px; 
-    min-width: 100px;
-    padding: 16px;  
+    padding: 72px;  
   }
 
+  .card {
+    display: flex; 
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 144px; 
+  }
+
+  .quotes {
+    background-color: #E5E7EB;
+    padding: 16px 150px 64px; 
+    display: flex; 
+  }
